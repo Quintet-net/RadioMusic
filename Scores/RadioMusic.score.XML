@@ -1,0 +1,995 @@
+<?xml version="1.0"?>
+<jmslscoredoc>
+<!-- Saved document from JMSL's programmable music notation editor. Java Music Specification Language by Nick Didkovsky & Phil Burk, available from: http://www.algomusic.com -->
+<score NAME="JMSLMaxScore-34" SUBTITLE="" COMPOSER="" COPYRIGHT="" WIDTH="980" HEIGHT="600" STAFFS="5" NUMTRACKSPERSTAFF="4" InstrumentNamesVisible="false" TempoVisible="false" StaffNumbersVisible="true" MeasureNumbersVisible="false" SectionBracketsVisible="false" TimeSignaturesVisible="false" KeySignaturesVisible="false" ClefsVisible="false" ScoreTitleVisible="false" CourtesyClefsVisible="false" MeasureNumberOffset="1" LeftMargin="20.0" RightMargin="20.0" TopMargin="15.0" BottomMargin="15.0" TopMarginOfFirstPage="60.0" DrawAllMeasureNumbers="false" TextFontScaler="1.5" ScoreSubtitleFontScaler="2.0" ScoreTitleFontScaler="4.0" TimesigFontScaler="2.5" MeasureNumberFontScaler="1.5" TextFontName="SansSerif" ScoreSubtitleFontName="Serif" ScoreTitleFontName="Serif" TimesigFontName="Serif" MeasureNumberFontName="SansSerif" FirstSystemIndent="0.0" >
+<ScoreAnnotation CLASSNAME="com.softsynth.jmsl.score.ScoreAnnotation" Annotation="252.3oc6PtqaCDBDEsF9JPT6MZWaWk+fTjGVxcQo.aFbvgGqFfHEY4+8vCE6UodK2BjtbmKCybtPI7uALn8NN6Q1vC8qxNineziwrovTrqlgnPo55K2IWnDB2.xS.ZzNHTe6phYH9iAJW46RBLBHau2A7ZMq9H5shwZY6yctaUDxyoP7uuhvOZ.UMkDThjI1Rgh7H0Y79uRi2yVmqSnu48d1k0y9n01CGvmbgH9hv1FJVqS5hYxBtXoxa9ftrrupTAH9uNW2uO0RITIDot6Dd+sXD9vD85I5MSzaq5r7JklO2A5vBPmWftdAnyKP2r.z4EnaW.5b.T5U5u.glxpC" >
+</ScoreAnnotation>
+<orchestra CLASSNAME="com.softsynth.jmsl.score.Orchestra" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="0" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="1" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="2" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="3" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="4" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+</orchestra>
+<mixerpanelsettings >
+<panamppair FADERINDEX="0" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="1" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="2" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="3" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="4" PAN="0.5" AMP="0.5" />
+</mixerpanelsettings>
+<staffspacing INDEX="0" ABOVE="72.0" BELOW="72.0" />
+<staffspacing INDEX="1" ABOVE="72.0" BELOW="72.0" />
+<staffspacing INDEX="2" ABOVE="72.0" BELOW="72.0" />
+<staffspacing INDEX="3" ABOVE="72.0" BELOW="72.0" />
+<staffspacing INDEX="4" ABOVE="72.0" BELOW="72.0" />
+<scoresection NAME="A" START="0" END="0" />
+<scoresection NAME="B" START="0" END="0" />
+<scoresection NAME="C" START="0" END="0" />
+<scoresection NAME="D" START="0" END="0" />
+<scoresection NAME="E" START="0" END="0" />
+<scoresection NAME="F" START="0" END="0" />
+<scoresection NAME="G" START="0" END="0" />
+<scoresection NAME="H" START="0" END="0" />
+<scoresection NAME="I" START="0" END="0" />
+<scoresection NAME="J" START="0" END="0" />
+<scoresection NAME="K" START="0" END="0" />
+<scoresection NAME="L" START="0" END="0" />
+<scoresection NAME="M" START="0" END="0" />
+<scoresection NAME="N" START="0" END="0" />
+<scoresection NAME="O" START="0" END="0" />
+<scoresection NAME="P" START="0" END="0" />
+<scoresection NAME="Q" START="0" END="0" />
+<scoresection NAME="R" START="0" END="0" />
+<scoresection NAME="S" START="0" END="0" />
+<scoresection NAME="T" START="0" END="0" />
+<scoresection NAME="U" START="0" END="0" />
+<scoresection NAME="V" START="0" END="0" />
+<scoresection NAME="W" START="0" END="0" />
+<scoresection NAME="X" START="0" END="0" />
+<scoresection NAME="Y" START="0" END="0" />
+<scoresection NAME="Z" START="0" END="0" />
+<measure WIDTH="1880" WIDTHSETBYHAND="true" TIMESIG="4 4" TIMESIGSETBYHAND="false" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="0.0" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="18.0" Xoffset="20.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 257.3ocUPErRDCCD0OkG8jdnxVYOH8VcUwdP1x5pWDoj1N0FnISIIP2hr+6ljcwEYfIy7du4MCYR1ZcjIkFIEocHG+.sPQ9hpyTOch5yUeAGcvUuJJpkUJgtyFaBPAtVdjM9tPj4ibzydSSJTjQ1JzX+xDMajdaSP183NuhXKRpJ1sGEX6yXWwikawqu+V4F3XzPXZTrPcPLxZB9EH0g02H0Bmj0XV5FPkv3r3gzWtEkZrFVpMPZw0kokebSBN5GqmimKaje68HOdmB+aVrRywytIRjcAXP1QQLmQns8rQUq3yPcFwbs3.Y+uf+77T9HD51A1b42JftFK94Br93peccK0AJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="66.0" Xoffset="20.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 236.3ocUP0rZCCCCdOJhbdCZF8vn21gceG1sxHn3n1XVrTPVizvnu6S1orxPfkz2eH7bLjMRehlnDwFb.9AXLQ9v62ndai53tOAitXc6phBRJg7PttTfJbAYRTeqTsdc.NIdnMulHMFPF9XclVznGaCz9B7rqntBMl.8DLqxYESIZ.5WAazQlvURgknMBxVW91fbbh3.4drEhXHSAKJb9wpo8fGmgeUsGnF3JD4SR8VEMdNx9X4HQu2VmXody8Uh16.iwAphYJx4Shl5RxMnAEW5vKT9+B9Kys2q.xgQQu+UUP2CqtuBqWO7KnA94EA" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="114.0" Xoffset="20.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 242.3ocUPFrZCCCCFdOJhbuklwXLxsAq26gcaLBpNJMBhkJJJKsL569rc6VYHvV56+WxBejCSNYqnQJRhCMv2ffQJkr6lz1qRer4SvoSd6lhofFinzMUJxnrVPGUKUki5Tz.8ZZnUuFIiCn.ue9HsXbZrUP8KviIGkRnZg8AV.Db0wQv4HsZjjC9.n8vyPjkYmlVCuManypjwrzwewcy4FlEVN.8FQqgsXX3WhqvdpBtjL2qksUM9P5oZJqIltqKYhV158Eg56fAtiJL2PYpWsXaTug5LboEOQS+2vey754E.kvfZ2+rxzmfyo9xpo3gebMo4kF" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="162.0" Xoffset="20.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 246.3ocUPErZCCCCceJhbeilwNL5sdX22gcqLBJ1JsBhkC1NzDJE5mQ2uW+RlrSYgYA1Ru2SOd3A1DST3YpmbjjfsvYPPGoMe9f5iEp8a9FRzTpYSQjw6bnXikgLTly368AcJW0ZsE57poU6bTfMn.eMOPmBrZaET+N7ppnLBUzzPfhQxBsyfCmX2nCP2POmFszKvNnob.VrpUIJB2udKx8jXn6W+A7sIjkk8CjczvxgUCpfK5lc9Rb8A9.KZaNmn9VW5DeI1sEh5UfirkJXo.JwNev037OfrA7TCNQw+K3OOWtu.nXN5Cq+VYz2fYcuLqVO8KPprxWt" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="210.0" Xoffset="20.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 239.3ocUPErZCCCCceJhbdazL1gQusA6dOraiQPMQoQPrjQwkjrQ+2mrSYkwCr068je7vQtcJQ1CzHEHIA6ge.ACjOb3p06aVet6KHQKolckkZ0P.ktoBIKk8Z0Q0bVF0N1C8pGZ0qAx3VTfOVizrwdrUP8KvS9FEJTgwnoKb.Sz3JjT3axzGg2nd0H3HchEgkSYm3HtdOjNaBXXGqfJvLmF.LDG4z4NBDBssDpfK.K8ZompwdN9XtfneWWlDsz2iEi5aBCbGUzRFJSdQBMA8pTmgyM3BM8+E9KysyK.JsCpc6aJq9Lr5uK653teAfE538." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="306.0" Xoffset="20.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 223.3ocUPFzZCCCCEd+TD4RNEvIMTF4VOrC81NL5kxH34nzZnVp3XnsL5+8JqzrxPf8SeumEBe16lRXrBOgAjRPG7KP1.JhOeZ8wr0dy2PBul5MZHGGBVZXRaxnrmiOwQoKW0R0AirLzhMAL5cVB951Y7RzKis.peGZjDZKTrsCLkFSYITAMyhsBqYgsZgIvUKv1xVEtqaQVAqUyB3N3oQVWON5O3IQl2KqbWqJh007G0n9E3ne.UVJZooQNF5C7SzPzdo2dEm9ef+l474cvRtib70uSl1B2j2kck5sGWNTYUB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="400.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[1] 182.3ocUO0yBBCCD0eJGtKXDGjt4fCt4fahThoW0.l6JWCzVj9e2KoEKxCRdekGjFuqMhxF7MFPJBEvGfrATIWliNMEcybGhXerbatjiCAKU0lEIqTlieyhpRvnn.pYcz0GCn3cVBtNzfchWmcMXN.6zFYIbFFAOUy44Xw+zSJMsiUuMYFw4YejCLKFu7UX1KJVpslkPYfmspDaWosGa+uvuMmNGAK4dwxxuI4tGFz2kRUr5KD7ZWIH" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJJHdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1ajTQW4L" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJJH6lG7tG7lHiZWlVvlLxJnh3+cSyFJxCZee0Gz9XXHixB7FlPJC0vKf7ITI6mh1MFcr5DjwG4lJqTfSIO0NXhhUIKv2XQUE3TTCcrN57sIThAOAGd1i2knN6bvsAVpMLI3VtFdCQpisAYIdIRJsrjWucFiXa3yVf6mw0XKZdYwSCcrjZR7jUq3u23efC+W36limuAOEtxxu+SwcE7TeWIUwrOnzhWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkkdWnUDQ5MO3cO3MQJwzs1.M6JaCXKR+2cSZwhLPx7JCjWNae.ksXG5QJ.kvGfLdTIWVhNOGcK+NDvgPUdpjk8dCU2mDQqXlk6XQUQTnnDZXczrSdTbVCAWGeguEmNaFTbD1oMRR3PNLANpgS6wh6oiTZbHidWjXDm18QJnX0n0UiIufXn9FV7UddwpVLuqLCX++E9s474DXHaKKqemn6dXTeWLUwlu3+tW4I" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgUafAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCP.eWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0qfAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCLPNWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGcWvHNHt4f6N3lHkyzqZfl6jqAZEw+6dIVrHOH48UdPdD78IRWRcTj3DrCdALFIibbJ5v2nyqt.IZLUupTxKwHxM8EQ1Jm4kNQMUFNC6fVwFsZejzfGY3zyGzfFrYq.2VXs0nHAmaM7FBbqTFTzvs.az7Rnc6JLVJCesD3lMtGZnhWRQtuUzXcTlrZTbnFGo9+K7ayumuAj82Ec9+jc2.Os2kSMr3Cfj.WwL" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DUDu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCDv7WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjvwBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeLf1WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="450.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TAEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdCDvTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJ6lG7tG7lHiZWlVvlLxJnh3+cSyFJxCZee0Gz9XXHixB7FlPJC0vKf7ITI6mh1MFcr5DjwG4lJqTfSIO0NXhhUIKv2XQUE3TTCcrN57sIThAOAGd1i2knN6bvsAVpMLI3VtFdCQpisAYIdIRJsrjWucFiXa3yVf6mw0XKZdYwSCcrjZR7jUq3u23efC+W36limuAOEtxxu+SwcE7TeWIUwrOrzyWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKzHNT5lCt6fahThoWsAL2IWCXKR+u6kzhE4AIuuxCxKuqOhxN7IFPJBUvGfrATImWhNMGcs3FDwgXcQtjiCAK0zmEIqTliexhpRvnnBZYczsGCn3cVBtL9BeKdc1sfoD1qMxRvbnDl.O0x4AYw+vSJMsjUuMYFw4gumCLqFc9FL6EEK02xRnNvKVMh8csc.6+uvuMmOm.K45XY8+jbO.i56RoJ17EPS2dU0" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0qfAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCLPNWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHNnt4f6N3lHkX5UMf4N4Z.aQ5+cubUTjGj79JOHOhgtLJKv6XBoLrEdAjOgJ4vmn8SQmpNCYrOWWYkBbJ4olNSTrJYA9NKpp.mhsPKqiNeWBkXvSvwgG3SIpyNGbqgkZCSBtpMvHDoV1Fjk30HozxRd81YLhsguXAteF2hMn4kEO00xRpNwerZD+yZeO18eguaNcNBdJbike+mh6JXPeWIUwr2rTyWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TQDu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdC..rWEJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCL.NWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TAEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdCDvTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1anThWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="600.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKzJNHcyAG5lCtIRIld0Fn4tx0.sh3+cujVrHOH48UdP5c1g.J6vNziT.Jf2.Y7nRtrDcdN5V1cHfSgprTIK68FpdHIhVwLK2whphHWQAzv5naO4QwYMDb8UONJNc1sP9QXu1HIgxR3C3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7BhgFZXwW44EqZwLVYlvg+K7ay4yOfgrsrr9chtGfW56hoJ17kF0dkx" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DUDu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCDv7WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGcWvHcP5lCt6fahThoWsAZtqbMPUj9e2KoEE4AIuuxCxf2MFQYK1iAjhPE7FHa.Ux40nSKQW2cCh3yX8tbIGGBVpYLKRVoLG2yhpRvnnBZYczhiAT7NKAWdMfShWms.LGf8ZirDL6KgYvSsbdPV7O7jRSKY0aSlQbd364.yOiNeCl8hhkFaYITG3UqFwNUaehi+W36lKmyfkbcr76+jbKgW56RoJ17APRoe0y" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJJH6lG7tG7lHiZWlVvlLxJnh3+cSyFJxCZee0Gz9XXHixB7FlPJC0vKf7ITI6mh1MFcr5DjwG4lJqTfSIO0NXhhUIKv2XQUE3TTCcrN57sIThAOAGd1i2knN6bvsAVpMLI3VtFdCQpisAYIdIRJsrjWucFiXa3yVf6mw0XKZdYwSCcrjZR7jUq3u23efC+W36limuAOEtxxu+SwcE7TeWIUwrOnzhWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="650.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzTbPbyA2cvMQJwzq1.l6JWCzVD+u6kzhE4AIuuxCRm20GQYG9BCHEgivafrATIWVhNOGcq3NDwwXUQtjiCAKU2mEIqTliewhpRvn3Hzv5naOEPw6rDbcpCGDuN6Vvb.J0FYIXJKfOfmZ37fr3e5IklVxp2lLi37vOxAlUiVeMl8hhk5aXITE3EqZwNTYGw9+K7ay4yOfkbsrr9eRt6gI8coTEa9dTXWsL" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DUDu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCDv7WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJJH6lG7tG7lHiZWlVvlLxJnh3+cSyFJxCZee0Gz9XXHixB7FlPJC0vKf7ITI6mh1MFcr5DjwG4lJqTfSIO0NXhhUIKv2XQUE3TTCcrN57sIThAOAGd1i2knN6bvsAVpMLI3VtFdCQpisAYIdIRJsrjWucFiXa3yVf6mw0XKZdYwSCcrjZR7jUq3u23efC+W36limuAOEtxxu+SwcE7TeWIUwrOnzhWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgUafAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCP.eWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJcn3lCt6fahThoWsAZtqbIPUj9e2KohE4AIuuxCxnyFhnrCGPORQ3.7FHiGUx4uQmVhtVbCh3yXSQtjk8dC0FxhjUJyxCrnpDJUb.5XczsG8n3rFBt7ZDmDmN6VnrF1qMxRntBlAG0w48Xw8vQJMMjQuKyLhy6dOGTtZz6ZwrWTLTniEeim+Z0JloFySL7egeatbNCFx1yx52I4VAuz2kRUr4CH.lWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzTbPbyA2cvMQJwzq1.l6JWCzVD+u6kzhE4AIuuxCRm20GQYG9BCHEgivafrATIWVhNOGcq3NDwwXUQtjiCAKU2mEIqTliewhpRvn3Hzv5naOEPw6rDbcpCGDuN6Vvb.J0FYIXJKfOfmZ37fr3e5IklVxp2lLi37vOxAlUiVeMl8hhk5aXITE3EqZwNTYGw9+K7ay4yOfkbsrr9eRt6gI8coTEa9dTXWsL" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="800.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKXEGD2bvgt4fahThoW0.l6JWBzVD+u6kSQQdPx6q7fzG7oLJKv6XDoLrEd.jKhJ4vmn8uiNs7LjwwbyRqjmiQG0lLQwpj446rnpBpTrE5Xcz46hnD7NBNN0iCRPmcNTsAVoMLITWWCOg.0w1frDtFHkVVxo2UFiXa3KVP0OiagVz7xhiRcrDah7GqVwMz3Fwz+E9t46ymfi72X42+o3tFlz2URUL6Uc3f0D" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0qfAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCLPNWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="800.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 184.3ocUO0yBBCCD0eJGcWnUbP5lCN3lChKhThoWsAZtStFvVD+u6kzhE4AIuuxCxSmsOfxZrC8HEfR3MPFOpjSyQGlhtleCB3PnJOUxxdugp6ShnULyxcrnpHJTTBMrNZ1dOJNqgfyiOwWhSmMCJ1AazFIIb7B7AbTCm1iE2CGoz3PF8tHwHNs68TPwhQqqFSdAwP8Mr3q77rUsXdUYFv9+K7ayoyOfgrsrr7chtagQ8cwTEq9Bh79UWC" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNX6lCt6fahThoWsAL2UtFnsH8+tWREKxCRdekGjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeXPYWoJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="850.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgUafAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCP.eWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJgcWvJhHdyCd2CdSjQrKSKrlLxJ3Fh+2MsJJxCZee0Gz9feHQ5bpihDmfsvCfwHYjCeh1+N5zhyPhFS0KJk7RLhbyPQjsxYdoSTSkgyvVnUrQq1EIM3QFNN0S20fMaE31.KsFEI3VsFdBAtUJCJZ3ZfMZdIztcEFKkguTBb+LtEZnhWRQdnUzXcT9X0n38ZbjF9uv2Mee9DP1eSze+mr6JXxdWN0vrWvzbWMM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgUafAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCP.eWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKXEAebyCd2CdSjRLcqFvraYSfpH8e2MaEEYfj4UFHcAeJixL7NFQJCagW.4hnRN7IZ+Xzo4mgL9HWO2J44XzQMISTrJYd9NKppfJEagVVGc5tHJAuifiO6vdInyNEpVCKzFlD1rBFf.0x1drDtFHkVFxo2UFiXa2KVP0OiagFz7xhiRsrDqi7GqFw0W6dfo+K7cywyAvQ9ar766TbWBO02URUL4MTPHWgJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKXEUDu4Au6AuIxn1koErIRVA2P1+cSyDE4Asuu5C5iXnMixL7NlPJCagW.4SnRN7IZ+Xzo4mgL1kqlakBbJ4o5VSTrJYA9NKpp.mhsPCqiNcWBkXvSvw9G3SIpyNEbafEZCSBtUqgAHRMrMHKwqQRokk75syXDaCewBb+LtEqQyKKdpsgkTUh+XUK9mU9Nr8+Be2b7b.7T3FK+9OE2kPu9tRphIu0jEWQM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJgcWvJNP7lG7tG7lHiXWlVXMYjUPGh+2MsJJxCZee0GzgfeLQ5bpmhDmfMvCfwHYj8eh18N53hSPhtmZVTJ4kXD41whHaky7RunlJCmgMPmXiVsMRZviLbXZftoAa1JvsFVZMJRvUWCOg.2IkAEMbIvFMuDZ2tBikxvmKAteFWCsTwKoHO1IZrIJerZU7VCdmF+uv2Mee9DP1eUze+mr6JXxdWN0vrWvDcWMM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGcWvHNTbyA2cvMQJwzqZ.yckqAZKh+28xonHOH48UdP5iggLJKw6XBoLrEd.jOgJ4vmn8uiNs5LjwobyJqTfSIO0NXhhUIKv2YQUE3TrE5XczpcIThAOAGm6wQIpyVAtZXs1vjfacM7DhTGaCxR7ZjTZYIud6LFw1vWr.2OiawVz7xhmF5XI0j3OVsherwOgC+W36luOeBdJbike+mh6FXVeWIUwhWvTbWMM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKznNT5lCt6fahTNSupAL2UtFPEw+6dIUTjGj79JOHCA+XhzEzUJRbBZfm.iQxH69DscJ5P0QHQ2SsUkRdIFQtarHxV4LubUTSkgyPCzK1ny2DIM3QF1+XftoAa14fqFVZMJRvspFdAAtWJCJZ3bfMZdIztcEFKkgOUBb+LtD5nhWRQdrWzXaT9X0o3sV7NM9eguaNc9BP1eQze+mr6Z3g8tbpgYu0DEWQM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1anThWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNX6lCt6fahThoWsAL2UtFnsH8+tWREKxCRdekGjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeXPYWoJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 183.3ocUOsrBBCCDzOkEuKX7AHdyCd2CdSjRLcqFvrqrMfsH8e2MaEEYfj4UFHOhg1LJyv6XBoLrEdAjOgJ4vmn8iQmleFxXWtZtUJvojmpaMQwpjE36rnpBbJ1BMrN5zcIThAOAG6efOknN6TvsAVnMLI3VuDFfH0v1frDuFIkVVxq2NiQrM7EKv8y3VrFMur3o1FVRUI9iUs3eV46v1+K7cywyAvSgar76+TbWA856JoJl7FvRvbUz" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TQDu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdC..rWEJ" >
+</measureUserBean>
+</measure>
+<measure WIDTH="1880" WIDTHSETBYHAND="true" TIMESIG="4 4" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="0.0" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="18.0" Xoffset="20.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 258.3ocUP0zZCCCCc+TdjSaGxnYzCibKcevxgQCcc6xXDbRTVLDaErMjFF8+9rcKqLDHK8dO8jvSxVqiLozHoHsC43GnEJxWTcl5oSTet5K3nCt5UQQsrRIzc1XS.Jv0xirw2EhLejid1aZRghLxVgF6WlnYizaaBxtG24UDaQRUwt8XC19L1U7X4V756uU9.bLZHLMJVnNHFYMA+Bj5v5ajZgSxZLKcCnRXbVrI8kaQoFqgkZCjVbcYZ4G2jfi9w5434xF42dOxi2ov+lEqzb7rahDYW.FjcTDyYDZaOaT0J9LTmQLWKNP1+K3OOOkOBgtcfMW9sBnqwhet.qOt5W.1oTWn" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="66.0" Xoffset="20.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 236.3ocUP0rZCCCCdOJhbdCZF8vn21gceG1sxHn3n1XVrTPVizvnu6S1orxPfkz2eH7bLjMRehlnDwFb.9AXLQ9v62ndai53tOAitXc6phBRJg7PttTfJbAYRTeqTsdc.NIdnMulHMFPF9XclVznGaCz9B7rqntBMl.8DLqxYESIZ.5WAazQlvURgknMBxVW91fbbh3.4drEhXHSAKJb9wpo8fGmgeUsGnF3JD4SR8VEMdNx9X4HQu2VmXody8Uh16.iwAphYJx4Shl5RxMnAEW5vKT9+B9Kys2q.xgQQu+UUP2CqtuBqWO7KnA94EA" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="114.0" Xoffset="20.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 242.3ocUPFrZCCCCFdOJhbuklwXLxsAq26gcaLBpNJMBhkJJJKsL569rc6VYHvV56+WxBejCSNYqnQJRhCMv2ffQJkr6lz1qRer4SvoSd6lhofFinzMUJxnrVPGUKUki5Tz.8ZZnUuFIiCn.ue9HsXbZrUP8KviIGkRnZg8AV.Db0wQv4HsZjjC9.n8vyPjkYmlVCuManypjwrzwewcy4FlEVN.8FQqgsXX3WhqvdpBtjL2qksUM9P5oZJqIltqKYhV158Eg56fAtiJL2PYpWsXaTug5LboEOQS+2vey754E.kvfZ2+rxzmfyo9xpo3gebMo4kF" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="162.0" Xoffset="20.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 246.3ocUPErZCCCCceJhbeilwNL5sdX22gcqLBJ1JsBhkC1NzDJE5mQ2uW+RlrSYgYA1Ru2SOd3A1DST3YpmbjjfsvYPPGoMe9f5iEp8a9FRzTpYSQjw6bnXikgLTly368AcJW0ZsE57poU6bTfMn.eMOPmBrZaET+N7ppnLBUzzPfhQxBsyfCmX2nCP2POmFszKvNnob.VrpUIJB2udKx8jXn6W+A7sIjkk8CjczvxgUCpfK5lc9Rb8A9.KZaNmn9VW5DeI1sEh5UfirkJXo.JwNev037OfrA7TCNQw+K3OOWtu.nXN5Cq+VYz2fYcuLqVO8KPprxWt" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="210.0" Xoffset="20.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 239.3ocUPErZCCCCceJhbdazL1gQusA6dOraiQPMQoQPrjQwkjrQ+2mrSYkwCr068je7vQtcJQ1CzHEHIA6ge.ACjOb3p06aVet6KHQKolckkZ0P.ktoBIKk8Z0Q0bVF0N1C8pGZ0qAx3VTfOVizrwdrUP8KvS9FEJTgwnoKb.Sz3JjT3axzGg2nd0H3HchEgkSYm3HtdOjNaBXXGqfJvLmF.LDG4z4NBDBssDpfK.K8ZompwdN9XtfneWWlDsz2iEi5aBCbGUzRFJSdQBMA8pTmgyM3BM8+E9KysyK.JsCpc6aJq9Lr5uK653teAfE538." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="306.0" Xoffset="20.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 223.3ocUPFzZCCCCEd+TD4RNEvIMTF4VOrC81NL5kxH34nzZnVp3XnsL5+8JqzrxPf8SeumEBe16lRXrBOgAjRPG7KP1.JhOeZ8wr0dy2PBul5MZHGGBVZXRaxnrmiOwQoKW0R0AirLzhMAL5cVB951Y7RzKis.peGZjDZKTrsCLkFSYITAMyhsBqYgsZgIvUKv1xVEtqaQVAqUyB3N3oQVWON5O3IQl2KqbWqJh007G0n9E3ne.UVJZooQNF5C7SzPzdo2dEm9ef+l474cvRtib70uSl1B2j2kck5sGWNTYUB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="400.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[1] 182.3ocUO0yBBCCD0eJGtKXDGjt4fCt4fahThoW0.l6JWCzVj9e2KoEKxCRdekGjFuqMhxF7MFPJBEvGfrATIWliNMEcybGhXerbatjiCAKU0lEIqTlieyhpRvnn.pYcz0GCn3cVBtNzfchWmcMXN.6zFYIbFFAOUy44Xw+zSJMsiUuMYFw4YejCLKFu7UX1KJVpslkPYfmspDaWosGa+uvuMmNGAK4dwxxuI4tGFz2kRUr5KD7ZWIH" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNncyA2cvMQJwzq1.l6JWCzVj9e2KoEKxCRdekGjVmsKfxN7M5QJ.EvGfLdTIWWhtLGcO6ADvgPYVpjk8dCU0kDQqXlkeyhphHWQATy5naO6QwYMDbarE6EmN6VH+HrWajjvo8vD3nZNsGKtWNRowgL5cdhQbZ2mof7UiFWEl7Bhg5pYwW54EqJwzWZFvt+K7ay4yIvP1FVV+NQ2Cvn9tXphMeEv8WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGcWvHcP5lCt6fahThoWsAZtqbMPUj9e2KoEE4AIuuxCxf2MFQYK1iAjhPE7FHa.Ux40nSKQW2cCh3yX8tbIGGBVpYLKRVoLG2yhpRvnnBZYczhiAT7NKAWdMfShWms.LGf8ZirDL6KgYvSsbdPV7O7jRSKY0aSlQbd364.yOiNeCl8hhkFaYITG3UqFwNUaehi+W36lKmyfkbcr76+jbKgW56RoJ17APRoe0y" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHNnt4f6N3lHkX5UMf4N4Z.aQ5+cubUTjGj79JOHOhgtLJKv6XBoLrEdAjOgJ4vmn8SQmpNCYrOWWYkBbJ4olNSTrJYA9NKpp.mhsPKqiNeWBkXvSvwgG3SIpyNGbqgkZCSBtpMvHDoV1Fjk30HozxRd81YLhsguXAteF2hMn4kEO00xRpNwerZD+yZeO18eguaNcNBdJbike+mh6JXPeWIUwr2rTyWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJcP6lCt6fahThoWsAL2UtFnsH8+tWREKxCRdekGjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9AXu1HIgiEvL3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7Bhg5aXwW44uV0hYnxLh8+W32lKmyfgrsrr9chtEvj9tXphMeLvNWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 181.3ocUO0zBBCCC0eJAuKXEAkcyCd2CdSjQrKSKXSFYEzgr+6l1IJxCZee0GztfuOQ5B5NEINAUvKfwHYjCeh1OEcZ4YHQOS0KKk7RLhbSeQjsxYd4tnlJCmgJnUrQmuKRZviLbbnidnAa14faKrxZTjvFGLBAtUJ6IZ3ZfMZdHztcEFKkcuTBb+LtEZnhWRQtuUzXcT9X0n3iZ7I0+eguaNcNBH6uI5uuS1cMLXuKmZX1a.7vUfB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="450.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHNnt4f6N3lHkX5UMf4N4Z.aQ5+cubUTjGj79JOHOhgtLJKv6XBoLrEdAjOgJ4vmn8SQmpNCYrOWWYkBbJ4olNSTrJYA9NKpp.mhsPKqiNeWBkXvSvwgG3SIpyNGbqgkZCSBtpMvHDoV1Fjk30HozxRd81YLhsguXAteF2hMn4kEO00xRpNwerZD+yZeO18eguaNcNBdJbike+mh6JXPeWIUwr2rTyWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="600.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKzJNHcyAG5lCtIRIld0Fn4tx0.sh3+cujVrHOH48UdP5c1g.J6vNziT.Jf2.Y7nRtrDcdN5V1cHfSgprTIK68FpdHIhVwLK2whphHWQAzv5naO4QwYMDb8UONJNc1sP9QXu1HIgxR3C3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7BhgFZXwW44EqZwLVYlvg+K7ay4yOfgrsrr9chtGfW56hoJ17kF0dkx" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNncyA2cvMQJwzq1.l6JWCzVj9e2KoEKxCRdekGjVmsKfxN7M5QJ.EvGfLdTIWWhtLGcO6ADvgPYVpjk8dCU0kDQqXlkeyhphHWQATy5naO6QwYMDbarE6EmN6VH+HrWajjvo8vD3nZNsGKtWNRowgL5cdhQbZ2mof7UiFWEl7Bhg5pYwW54EqJwzWZFvt+K7ay4yIvP1FVV+NQ2Cvn9tXphMeEv8WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJcn3lCt6fahThoWsAZtqbIPUj9e2KohE4AIuuxCxnyFhnrCGPORQ3.7FHiGUx4uQmVhtVbCh3yXSQtjk8dC0FxhjUJyxCrnpDJUb.5XczsG8n3rFBt7ZDmDmN6VnrF1qMxRntBlAG0w48Xw8vQJMMjQuKyLhy6dOGTtZz6ZwrWTLTniEeim+Z0JloFySL7egeatbNCFx1yx52I4VAuz2kRUr4CH.lWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJJH6lG7tG7lHiZWlVvlLxJnh3+cSyFJxCZee0Gz9XXHixB7FlPJC0vKf7ITI6mh1MFcr5DjwG4lJqTfSIO0NXhhUIKv2XQUE3TTCcrN57sIThAOAGd1i2knN6bvsAVpMLI3VtFdCQpisAYIdIRJsrjWucFiXa3yVf6mw0XKZdYwSCcrjZR7jUq3u23efC+W36limuAOEtxxu+SwcE7TeWIUwrOnzhWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGcWno3f3lCt6fahThoWsAZtqbMPUj9e2KohE4AIuuxCxf2MFQYK1iAjhvA3MP1.pjyeiNsDcs7FDwmw5xbIGGBVpYLKRVoLG2yhpRvn3.zx5nEGCn3cVBt7Z.mDuNaAX1CUZirDLUUvL3oVNOHK9GdRookr5sIyHNO78bfY0ny2fYunXowVVB0A9qUiXmpsOww+K7aykyYvRtNVV+OI2cvK8coTEa9fToW0L" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJET5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIgCEvL3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7Bhg5aXwW44uV0hYnxLh8+W32lKmyfgrsrr9chtEvj9tXphMeDP8WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="650.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGcWvHcP5lCt6fahThoWsAZtqbMPUj9e2KoEE4AIuuxCxf2MFQYK1iAjhPE7FHa.Ux40nSKQW2cCh3yX8tbIGGBVpYLKRVoLG2yhpRvnnBZYczhiAT7NKAWdMfShWms.LGf8ZirDL6KgYvSsbdPV7O7jRSKY0aSlQbd364.yOiNeCl8hhkFaYITG3UqFwNUaehi+W36lKmyfkbcr76+jbKgW56RoJ17APRoe0y" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkkdWnUDQ5MO3cO3MQJwzs1.M6JaCXKR+2cSZwhLPx7JCjWNae.ksXG5QJ.kvGfLdTIWVhNOGcK+NDvgPUdpjk8dCU2mDQqXlk6XQUQTnnDZXczrSdTbVCAWGeguEmNaFTbD1oMRR3PNLANpgS6wh6oiTZbHidWjXDm18QJnX0n0UiIufXn9FV7UddwpVLuqLCX++E9s474DXHaKKqemn6dXTeWLUwlu3+tW4I" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="800.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKXEGD2bvgt4fahThoW0.l6JWBzVD+u6kSQQdPx6q7fzG7oLJKv6XDoLrEd.jKhJ4vmn8uiNs7LjwwbyRqjmiQG0lLQwpj446rnpBpTrE5Xcz46hnD7NBNN0iCRPmcNTsAVoMLITWWCOg.0w1frDtFHkVVxo2UFiXa3KVP0OiagVz7xhiRcrDah7GqVwMz3Fwz+E9t46ymfi72X42+o3tFlz2URUL6Uc3f0D" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1anThWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="800.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 184.3ocUO0yBBCCD0eJGcWnUbP5lCN3lChKhThoWsAZtStFvVD+u6kzhE4AIuuxCxSmsOfxZrC8HEfR3MPFOpjSyQGlhtleCB3PnJOUxxdugp6ShnULyxcrnpHJTTBMrNZ1dOJNqgfyiOwWhSmMCJ1AazFIIb7B7AbTCm1iE2CGoz3PF8tHwHNs68TPwhQqqFSdAwP8Mr3q77rUsXdUYFv9+K7ayoyOfgrsrr7chtagQ8cwTEq9Bh79UWC" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkkdWnQDT7lG7tG7lHkX5VaflcKaCzJh+6tIVrHCjLux.o26FhnrF6v.RQ3.7BHa.Ux44nSeitVdCh3TrpLWxwgfkpGxhjUJywcrnpDLJN.MrNZww.JdmkfKO6wQwqyV.l8vFsQVBFyN3M3oFNOHK9GdRookr5sIyHNO78bfYwn0WiYunXogFVBUAd1pVriU1Ib3+B+1764avRtVVV9OI2svS8coTEq9rDKWEM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgMqfAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCPveWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0qfAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCLPNWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJJHdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1ajTQW4L" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 183.3ocUOsrBBCCDzOkEuKX7AHdyCd2CdSjRLcqFvrqrMfsH8e2MaEEYfj4UFHOhg1LJyv6XBoLrEdAjOgJ4vmn8iQmleFxXWtZtUJvojmpaMQwpjE36rnpBbJ1BMrN5zcIThAOAG6efOknN6TvsAVnMLI3VtFFfH0v1frDuFIkVVxq2NiQrM7EKv8y3VrFMur3o1FVRUI9iUs3eV46v1+K7cywyAvSgar76+TbWA856JoJl7FvRtbUz" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="850.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJET5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIgCEvL3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7Bhg5aXwW44uV0hYnxLh8+W32lKmyfgrsrr9chtEvj9tXphMeDP8WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJcP6lCt6fahThoWsAL2UtFnsH8+tWREKxCRdekGjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9AXu1HIgiEvL3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7Bhg5aXwW44uV0hYnxLh8+W32lKmyfgrsrr9chtEvj9tXphMeLvNWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 181.3ocUO0zBBCCC0eJAuKXEAkcyCd2CdSjQrKSKXSFYEzgr+6l1IJxCZee0GztfuOQ5B5NEINAUvKfwHYjCeh1OEcZ4YHQOS0KKk7RLhbSeQjsxYd4tnlJCmgJnUrQmuKRZviLbbnidnAa14faKrxZTjvFGLBAtUJ6IZ3ZfMZdHztcEFKkcuTBb+LtEZnhWRQtuUzXcT9X0n3iZ7I0+eguaNcNBH6uI5uuS1cMLXuKmZX1a.7vUfB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJJT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjvwBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeLvMWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKXEUDu4Au6AuIxn1koErIRVA2P1+cSyDE4Asuu5C5iXnMixL7NlPJCagW.4SnRN7IZ+Xzo4mgL1kqlakBbJ4o5VSTrJYA9NKpp.mhsPCqiNcWBkXvSvw9G3SIpyNEbafEZCSBtUqgAHRMrMHKwqQRokk75syXDaCewBb+LtEqQyKKdpsgkTUh+XUK9mU9Nr8+Be2b7b.7T3FK+9OE2kPu9tRphIu0jEWQM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TAEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdCDvTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgUafAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCP.eWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHNnt4f6N3lHkX5UMf4N4Z.aQ5+cubUTjGj79JOHOhgtLJKv6XBoLrEdAjOgJ4vmn8SQmpNCYrOWWYkBbJ4olNSTrJYA9NKpp.mhsPKqiNeWBkXvSvwgG3SIpyNGbqgkZCSBtpMvHDoV1Fjk30HozxRd81YLhsguXAteF2hMn4kEO00xRpNwerZD+yZeO18eguaNcNBdJbike+mh6JXPeWIUwr2rTyWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKXEAebyCd2CdSjRLcqFvraYSfpH8e2MaEEYfj4UFHcAeJixL7NFQJCagW.4hnRN7IZ+Xzo4mgL9HWO2J44XzQMISTrJYd9NKppfJEagVVGc5tHJAuifiO6vdInyNEpVCKzFlDVsAFf.0x1drDtFHkVFxo2UFiXa2KVP0OiagFz7xhiRsrDqi7GqFw0W6dfo+K7cywyAvQ9ar766TbWBO02URUL4MTvGWgJ" >
+</measureUserBean>
+</measure>
+<measure WIDTH="1880" WIDTHSETBYHAND="true" TIMESIG="4 4" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="0.0" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="18.0" Xoffset="20.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 257.3ocUPErRDCCD0OkG8jdnxVYOH8VcUwdP1x5pWDoj1N0FnISIIP2hr+6ljcwEYfIy7du4MCYR1ZcjIkFIEocHG+.sPQ9hpyTOch5yUeAGcvUuJJpkUJgtyFaBPAtVdjM9tPj4ibzydSSJTjQ1JzX+xDMajdaSP183NuhXKRpJ1sGav1mwthGK2hWe+sxMvwngvznXg5fXj0D7KPpCquQpENIqwrzMfJgwYwCoubKJ0XMrTafzhqKSK+3lDbzOVOGOW1H+16Qd7NE92rXklimcSjH6BvfrihXNiPa6YipVwmg5Lh4ZwAx9eA+44o7QHzsCr4xuU.cMV7yEX8wU+lcI0IJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="66.0" Xoffset="20.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 236.3ocUP0rZCCCCdOJhbdCZF8vn21gceG1sxHn3n1XVrTPVizvnu6S1orxPfkz2eH7bLjMRehlnDwFb.9AXLQ9v62ndai53tOAitXc6phBRJg7PttTfJbAYRTeqTsdc.NIdnMulHMFPF9XclVznGaCz9B7rqntBMl.8DLqxYESIZ.5WAazQlvURgknMBxVW91fbbh3.4drEhXHSAKJb9wpo8fGmgeUsGnF3JD4SR8VEMdNx9X4HQu2VmXody8Uh16.iwAphYJx4Shl5RxMnAEW5vKT9+B9Kys2q.xgQQu+UUP2CqtuBqWO7KnA94EA" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="114.0" Xoffset="20.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 242.3ocUPFrZCCCCFdOJhbuklwXLxsAq26gcaLBpNJMBhkJJJKsL569rc6VYHvV56+WxBejCSNYqnQJRhCMv2ffQJkr6lz1qRer4SvoSd6lhofFinzMUJxnrVPGUKUki5Tz.8ZZnUuFIiCn.ue9HsXbZrUP8KviIGkRnZg8AV.Db0wQv4HsZjjC9.n8vyPjkYmlVCuManypjwrzwewcy4FlEVN.8FQqgsXX3WhqvdpBtjL2qksUM9P5oZJqIltqKYhV158Eg56fAtiJL2PYpWsXaTug5LboEOQS+2vey754E.kvfZ2+rxzmfyo9xpo3gebMo4kF" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="162.0" Xoffset="20.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 246.3ocUPErZCCCCceJhbeilwNL5sdX22gcqLBJ1JsBhkC1NzDJE5mQ2uW+RlrSYgYA1Ru2SOd3A1DST3YpmbjjfsvYPPGoMe9f5iEp8a9FRzTpYSQjw6bnXikgLTly368AcJW0ZsE57poU6bTfMn.eMOPmBrZaET+N7ppnLBUzzPfhQxBsyfCmX2nCP2POmFszKvNnob.VrpUIJB2udKx8jXn6W+A7sIjkk8CjczvxgUCpfK5lc9Rb8A9.KZaNmn9VW5DeI1sEh5UfirkJXo.JwNev037OfrA7TCNQw+K3OOWtu.nXN5Cq+VYz2fYcuLqVO8KPprxWt" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="210.0" Xoffset="20.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 239.3ocUPErZCCCCceJhbdazL1gQusA6dOraiQPMQoQPrjQwkjrQ+2mrSYkwCr068je7vQtcJQ1CzHEHIA6ge.ACjOb3p06aVet6KHQKolckkZ0P.ktoBIKk8Z0Q0bVF0N1C8pGZ0qAx3VTfOVizrwdrUP8KvS9FEJTgwnoKb.Sz3JjT3axzGg2nd0H3HchEgkSYm3HtdOjNaBXXGqfJvLmF.LDG4z4NBDBssDpfK.K8ZompwdN9XtfneWWlDsz2iEi5aBCbGUzRFJSdQBMA8pTmgyM3BM8+E9KysyK.JsCpc6aJq9Lr5uK653teAfE538." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="306.0" Xoffset="20.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 223.3ocUPFzZCCCCEd+TD4RNEvIMTF4VOrC81NL5kxH34nzZnVp3XnsL5+8JqzrxPf8SeumEBe16lRXrBOgAjRPG7KP1.JhOeZ8wr0dy2PBul5MZHGGBVZXRaxnrmiOwQoKW0R0AirLzhMAL5cVB951Y7RzKis.peGZjDZKTrsCLkFSYITAMyhsBqYgsZgIvUKv1xVEtqaQVAqUyB3N3oQVWON5O3IQl2KqbWqJh007G0n9E3ne.UVJZooQNF5C7SzPzdo2dEm9ef+l474cvRtib70uSl1B2j2kck5sGWNTYUB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[1] 181.3ocUO0yBBCCD0eJGcWvHcP5lCt6fahTNSupAL2UtFnJh+28RpnHOH48UdPFB9wDoKoaTj3Dz.OAFijQ1+IZ2bzQ2IHQ2SsqJk7RLhb2XQjsxYd4lnlJCmgFnWrQq1FIM3QFN7XflzfMaE31.qsFEIroFdAAtWJ6IZ3RfMZdHztcEFKkcOWBb+LtF5nhWRQdrWzXaT9X0o3TKdmF+uv2MmOeAH6uJ5uuS1sFdXuKmZXwaCf4UkB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNX6lCt6fahThoWsAL2UtFnsH8+tWREKxCRdekGjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeXPYWoJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJJH6lG7tG7lHiZWlVvlLxJnh3+cSyFJxCZee0Gz9XXHixB7FlPJC0vKf7ITI6mh1MFcr5DjwG4lJqTfSIO0NXhhUIKv2XQUE3TTCcrN57sIThAOAGd1i2knN6bvsAVpMLI3VtFdCQpisAYIdIRJsrjWucFiXa3yVf6mw0XKZdYwSCcrjZR7jUq3u23efC+W36limuAOEtxxu+SwcE7TeWIUwrOnzhWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJgcWvJJHdyCd2CdSjQrKSKrlLxJ3Fh+2MsJJxCZee0Gz9feHQ5bpihDmfsvCfwHYjCeh1+N5zhyPhFS0KJk7RLhbyPQjsxYdoSTSkgyvVnUrQq1EIM3QFNN0S20fMaE31.KsFEI3VsFdBAtUJCJZ3ZfMZdIztcEFKkguTBb+LtEZnhWRQdnUzXcT9X0n38ZbjF9uv2Mee9DP1eSze+mr6JXxdWN0vrWrTzWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJcn3lCt6fahThoWsAZtqbIPUj9e2KohE4AIuuxCxnyFhnrCGPORQ3.7FHiGUx4uQmVhtVbCh3yXSQtjk8dC0FxhjUJyxCrnpDJUb.5XczsG8n3rFBt7ZDmDmN6VnrF1qMxRntBlAG0w48Xw8vQJMMjQuKyLhy6dOGTtZz6ZwrWTLTniEeim+Z0JloFySL7egeatbNCFx1yx52I4VAuz2kRUr4CH.lWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJRQ5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeHfkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1anThWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkkdWnQTP7lG7tG7lHkX5VaflcKaCzJh+6tIVrHCjLux.o26FhnrF6v.RQ3.7BHa.Ux44nSeitVdCh3TrpLWxwgfkpGxhjUJywcrnpDLJN.MrNZww.JdmkfKO6wQwqyV.l8vFsQVBlcF3M3oFNOHK9GdRookr5sIyHNO78bfYwn0WiYunXogFVBUAd1pVriU1Ib3+B+1764avRtVVV9OI2svS8coTEq9jD6W8L" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 181.3ocUO0zBBCCC0eJAuKXEAkcyCd2CdSjQrKSKXSFYEzgr+6l1IJxCZee0GztfuOQ5B5NEINAUvKfwHYjCeh1OEcZ4YHQOS0KKk7RLhbSeQjsxYd4tnlJCmgJnUrQmuKRZviLbbnidnAa14faKrxZTjvFGLBAtUJ6IZ3ZfMZdHztcEFKkcuTBb+LtEZnhWRQtuUzXcT9X0n3iZ7I0+eguaNcNBH6uI5uuS1cMLXuKmZX1a.7vUfB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1anThWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHNT5lCt6fahThoWsAZtStFPKR+u6kzhE4AIuuxCxSuaHhxNrGCHEgJ3CP1.pjyKQmlitVbCh36XcQtjiCAK0LjEIqTli6YQUIXTTAsrN51iAT7NKAWFehuDuN6VvTB60FYITZfIvSsbdOV7O7jRSCY0aSlQbd264.ypQmuAydQwRCsrDpC7hUiXeUaeiC+W32lymSfkbcrr9cRtGfQ8coTEa9B.frWEJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgUafAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCP.eWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHNnt4f6N3lHkX5UMf4N4Z.aQ5+cubUTjGj79JOHOhgtLJKv6XBoLrEdAjOgJ4vmn8SQmpNCYrOWWYkBbJ4olNSTrJYA9NKpp.mhsPKqiNeWBkXvSvwgG3SIpyNGbqgkZCSBtpMvHDoV1Fjk30HozxRd81YLhsguXAteF2hMn4kEO00xRpNwerZD+yZeO18eguaNcNBdJbike+mh6JXPeWIUwr2rTyWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjvwBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeLf1WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="650.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgMqfAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCPveWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKXEAebyCd2CdSjRLcqFvraYSfpH8e2MaEEYfj4UFHcAeJixL7NFQJCagW.4hnRN7IZ+Xzo4mgL9HWO2J44XzQMISTrJYd9NKppfJEagVVGc5tHJAuifiO6vdInyNEpVCKzFlDVsAFf.0x1drDtFHkVFxo2UFiXa2KVP0OiagFz7xhiRsrDqi7GqFw0W6dfo+K7cywyAvQ9ar766TbWBO02URUL4MTvGWgJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TAEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdCDvTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="800.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKzJNHcyAG5lCtIRIld0Fn4tx0.sh3+cujVrHOH48UdP5c1g.J6vNziT.Jf2.Y7nRtrDcdN5V1cHfSgprTIK68FpdHIhVwLK2whphHWQAzv5naO4QwYMDb8UONJNc1sP9QXu1HIgxR3C3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7BhgFZXwW44EqZwLVYlvg+K7ay4yOfgrsrr9chtGfW56hoJ17kF0dkx" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 186.3ocUO0yBBCCD0eJGcRGDrhED2bvcGbSjRL8pFn4tx0.sh3+cujVrHOH48UdPZc1t.JqwFziT.N.uAx3QkbdJ5zXz0M2f.NDJ2jJYYu2PUcIQzJlY4FVTUD4JN.0rNZ1QOJNqgfKuZwdwoylA46gsZijDVVTrB9.NplSKxh6giTZbJidmmXDmV9dJHe13oqBSdAwPc0r3K87jUkX5KMCX2+E9s434GvP1mrL+ght6fW56hoJV7E.iye07" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJgcWvJJHdyCd2CdSjQrKSKrlLxJ3Fh+2MsJJxCZee0Gz9feHQ5bpihDmfsvCfwHYjCeh1+N5zhyPhFS0KJk7RLhbyPQjsxYdoSTSkgyvVnUrQq1EIM3QFNN0S20fMaE31.KsFEI3VsFdBAtUJCJZ3ZfMZdIztcEFKkguTBb+LtEZnhWRQdnUzXcT9X0n38ZbjF9uv2Mee9DP1eSze+mr6JXxdWN0vrWrTzWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0qfAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCLPNWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1anThWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="850.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNncyA2cvMQJwzq1.l6JWCzVj9e2KoEKxCRdekGjVmsKfxN7M5QJ.EvGfLdTIWWhtLGcO6ADvgPYVpjk8dCU0kDQqXlkeyhphHWQATy5naO6QwYMDbarE6EmN6VH+HrWajjvo8vD3nZNsGKtWNRowgL5cdhQbZ2mof7UiFWEl7Bhg5pYwW54EqJwzWZFvt+K7ay4yIvP1FVV+NQ2Cvn9tXphMeEv8WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 181.3ocUO0zBBCCC0eJAuKXEQjcyCd2CdSjQrKSKXSFYEzgr+6l1IJxCZee0GztfuOQ5B5NEINAUvKfwHYjCeh1OEcZ4YHQOS0KKk7RLhbSeQjsxYd4tnlJCmgJnUrQmuKRZviLbbnidnAa14faKrxZTjvFGLBAtUJ6IZ3ZfMZdHztcEFKkcuTBb+LtEZnhWRQtuUzXcT9X0n3iZ7I0+eguaNcNBH6uI5uuS1cMLXuKmZX1a+20UeB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGcWvHcP5lCt6fahThoWsAZtqbMPUj9e2KoEE4AIuuxCxf2MFQYK1iAjhPE7FHa.Ux40nSKQW2cCh3yX8tbIGGBVpYLKRVoLG2yhpRvnnBZYczhiAT7NKAWdMfShWms.LGf8ZirDL6KgYvSsbdPV7O7jRSKY0aSlQbd364.yOiNeCl8hhkFaYITG3UqFwNUaehi+W36lKmyfkbcr76+jbKgW56RoJ17APRoe0y" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKXEAebyCd2CdSjRLcqFvraYSfpH8e2MaEEYfj4UFHcAeJixL7NFQJCagW.4hnRN7IZ+Xzo4mgL9HWO2J44XzQMISTrJYd9NKppfJEagVVGc5tHJAuifiO6vdInyNEpVCKzFlD1rBFf.0x1drDtFHkVFxo2UFiXa2KVP0OiagFz7xhiRsrDqi7GqFw0W6dfo+K7cywyAvQ9ar766TbWBO02URUL4MTPHWgJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNncyA2cvMQJwzq1.l6JWCzVj9e2KoEKxCRdekGjVmsKfxN7M5QJ.EvGfLdTIWWhtLGcO6ADvgPYVpjk8dCU0kDQqXlkeyhphHWQATy5naO6QwYMDbarE6EmN6VH+HrWajjvo8vD3nZNsGKtWNRowgL5cdhQbZ2mof7UiFWEl7Bhg5pYwW54EqJwzWZFvt+K7ay4yIvP1FVV+NQ2Cvn9tXphMeEv8WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0qfAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCLPNWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKXEAebyCd2CdSjRLcqFvraYSfpH8e2MaEEYfj4UFHcAeJixL7NFQJCagW.4hnRN7IZ+Xzo4mgL9HWO2J44XzQMISTrJYd9NKppfJEagVVGc5tHJAuifiO6vdInyNEpVCKzFlD1rBFf.0x1drDtFHkVFxo2UFiXa2KVP0OiagFz7xhiRsrDqi7GqFw0W6dfo+K7cywyAvQ9ar766TbWBO02URUL4MTPHWgJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNncyA2cvMQJwzq1.l6JWCzVj9e2KoEKxCRdekGjVmsKfxN7M5QJ.EvGfLdTIWWhtLGcO6ADvgPYVpjk8dCU0kDQqXlkeyhphHWQATy5naO6QwYMDbarE6EmN6VH+HrWajjvo8vD3nZNsGKtWNRowgL5cdhQbZ2mof7UiFWEl7Bhg5pYwW54EqJwzWZFvt+K7ay4yIvP1FVV+NQ2Cvn9tXphMeEv8WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJBV5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjvwBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMePPeWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="1200.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKXEGD2bvgt4fahThoW0.l6JWBzVD+u6kSQQdPx6q7fzG7oLJKv6XDoLrEd.jKhJ4vmn8uiNs7LjwwbyRqjmiQG0lLQwpj446rnpBpTrE5Xcz46hnD7NBNN0iCRPmcNTsAVoMLITWWCOg.0w1frDtFHkVVxo2UFiXa3KVP0OiagVz7xhiRcrDah7GqVwMz3Fwz+E9t46ymfi72X42+o3tFlz2URUL6Uc3f0D" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHNnt4f6N3lHkX5UMf4N4Z.aQ5+cubUTjGj79JOHOhgtLJKv6XBoLrEdAjOgJ4vmn8SQmpNCYrOWWYkBbJ4olNSTrJYA9NKpp.mhsPKqiNeWBkXvSvwgG3SIpyNGbqgkZCSBtpMvHDoV1Fjk30HozxRd81YLhsguXAteF2hMn4kEO00xRpNwerZD+yZeO18eguaNcNBdJbike+mh6JXPeWIUwr2rTyWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 183.3ocUOsrBBCCDzOkEuKX7AHdyCd2CdSjRLcqFvrqrMfsH8e2MaEEYfj4UFHOhg1LJyv6XBoLrEdAjOgJ4vmn8iQmleFxXWtZtUJvojmpaMQwpjE36rnpBbJ1BMrN5zcIThAOAG6efOknN6TvsAVnMLI3VuDFfH0v1frDuFIkVVxq2NiQrM7EKv8y3VrFMur3o1FVRUI9iUs3eV46v1+K7cywyAvSgar76+TbWA856JoJl7FvRvbUz" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 181.3ocUO0zBBCCC0eJAuKXEAkcyCd2CdSjQrKSKXSFYEzgr+6l1IJxCZee0GztfuOQ5B5NEINAUvKfwHYjCeh1OEcZ4YHQOS0KKk7RLhbSeQjsxYd4tnlJCmgJnUrQmuKRZviLbbnidnAa14faKrxZTjvFGLBAtUJ6IZ3ZfMZdHztcEFKkcuTBb+LtEZnhWRQtuUzXcT9X0n3iZ7I0+eguaNcNBH6uI5uuS1cMLXuKmZX1a.7vUfB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1anThWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNncyA2cvMQJwzq1.l6JWCzVj9e2KoEKxCRdekGjVmsKfxN7M5QJ.EvGfLdTIWWhtLGcO6ADvgPYVpjk8dCU0kDQqXlkeyhphHWQATy5naO6QwYMDbarE6EmN6VH+HrWajjvo8vD3nZNsGKtWNRowgL5cdhQbZ2mof7UiFWEl7Bhg5pYwW54EqJwzWZFvt+K7ay4yIvP1FVV+NQ2Cvn9tXphMeEv8WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="1250.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgUafAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCP.eWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKzHNT5lCt6fahThoWsAL2IWCXKR+u6kzhE4AIuuxCxKuqOhxN7IFPJBUvGfrATImWhNMGcs3FDwgXcQtjiCAK0zmEIqTliexhpRvnnBZYczsGCn3cVBtL9BeKdc1sfoD1qMxRvbnDl.O0x4AYw+vSJMsjUuMYFw4gumCLqFc9FL6EEK02xRnNvKVMh8csc.6+uvuMmOm.K45XY8+jbO.i56RoJ17EPS2dU0" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="1400.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 184.3ocUO0yBBCCD0eJGcWnUbP5lCN3lChKhThoWsAZtStFvVD+u6kzhE4AIuuxCxSmsOfxZrC8HEfR3MPFOpjSyQGlhtleCB3PnJOUxxdugp6ShnULyxcrnpHJTTBMrNZ1dOJNqgfyiOwWhSmMCJ1AazFIIb7B7AbTCm1iE2CGoz3PF8tHwHNs68TPwhQqqFSdAwP8Mr3q77rUsXdUYFv9+K7ayoyOfgrsrr7chtagQ8cwTEq9Bh79UWC" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 183.3ocUOsrBBCCDzOkEuKX7AHdyCd2CdSjRLcqFvrqrMfsH8e2MaEEYfj4UFHOhg1LJyv6XBoLrEdAjOgJ4vmn8iQmleFxXWtZtUJvojmpaMQwpjE36rnpBbJ1BMrN5zcIThAOAG6efOknN6TvsAVnMLI3VtFFfH0v1frDuFIkVVxq2NiQrM7EKv8y3VrFMur3o1FVRUI9iUs3eV46v1+K7cywyAvSgar76+TbWA856JoJl7FvRtbUz" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNX6lCt6fahThoWsAL2UtFnsH8+tWREKxCRdekGjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeXPYWoJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgUafAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCP.eWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TQDu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdC..rWEJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzTbPbyA2cvMQJwzq1.l6JWCzVD+u6kzhE4AIuuxCRm20GQYG9BCHEgivafrATIWVhNOGcq3NDwwXUQtjiCAKU2mEIqTliewhpRvn3Hzv5naOEPw6rDbcpCGDuN6Vvb.J0FYIXJKfOfmZ37fr3e5IklVxp2lLi37vOxAlUiVeMl8hhk5aXITE3EqZwNTYGw9+K7ay4yOfkbsrr9eRt6gI8coTEa9dTXWsL" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="1450.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TAEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdCDvTWIJ" >
+</measureUserBean>
+</measure>
+<measure WIDTH="1880" WIDTHSETBYHAND="true" TIMESIG="4 4" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="0.0" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="18.0" Xoffset="20.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 257.3ocUPErRDCCD0OkG8jdnxVYOH8V0UwdP1x5pWDoj1N0FnISIIP2hr+6ljcwEYfIy7du4MCYR1ZcjIkFIEocHG+.sPQ9hpyTOch5yUeAGcvUuJJpkUJgtyFaBPAtVdjM9tPj4ibzydSSJTjQ1JzX+xDMajdaSP183NuhXKRpJ1sGav1mwthMkawqu+V4ivwngvznXg5fXj0D7KPpCquQpENIqwrzMfJgwYwCoubKJ0XMrTafzhqKSK+3lDbzOVOGOW1H+16Qd7NE92rXklimcSjH6BvfrihXNiPa6YipVwmg5Lh4ZwAx9eA+44o7QHzsCr4xuU.cMV7yEX8wU+pcH0MJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="66.0" Xoffset="20.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 236.3ocUP0rZCCCCdOJhbdCZF8vn21gceG1sxHn3n1XVrTPVizvnu6S1orxPfkz2eH7bLjMRehlnDwFb.9AXLQ9v62ndai53tOAitXc6phBRJg7PttTfJbAYRTeqTsdc.NIdnMulHMFPF9XclVznGaCz9B7rqntBMl.8DLqxYESIZ.5WAazQlvURgknMBxVW91fbbh3.4drEhXHSAKJb9wpo8fGmgeUsGnF3JD4SR8VEMdNx9X4HQu2VmXody8Uh16.iwAphYJx4Shl5RxMnAEW5vKT9+B9Kys2q.xgQQu+UUP2CqtuBqWO7KnA94EA" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="114.0" Xoffset="20.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 242.3ocUPFrZCCCCFdOJhbuklwXLxsAq26gcaLBpNJMBhkJJJKsL569rc6VYHvV56+WxBejCSNYqnQJRhCMv2ffQJkr6lz1qRer4SvoSd6lhofFinzMUJxnrVPGUKUki5Tz.8ZZnUuFIiCn.ue9HsXbZrUP8KviIGkRnZg8AV.Db0wQv4HsZjjC9.n8vyPjkYmlVCuManypjwrzwewcy4FlEVN.8FQqgsXX3WhqvdpBtjL2qksUM9P5oZJqIltqKYhV158Eg56fAtiJL2PYpWsXaTug5LboEOQS+2vey754E.kvfZ2+rxzmfyo9xpo3gebMo4kF" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="162.0" Xoffset="20.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 246.3ocUPErZCCCCceJhbeilwNL5sdX22gcqLBJ1JsBhkC1NzDJE5mQ2uW+RlrSYgYA1Ru2SOd3A1DST3YpmbjjfsvYPPGoMe9f5iEp8a9FRzTpYSQjw6bnXikgLTly368AcJW0ZsE57poU6bTfMn.eMOPmBrZaET+N7ppnLBUzzPfhQxBsyfCmX2nCP2POmFszKvNnob.VrpUIJB2udKx8jXn6W+A7sIjkk8CjczvxgUCpfK5lc9Rb8A9.KZaNmn9VW5DeI1sEh5UfirkJXo.JwNev037OfrA7TCNQw+K3OOWtu.nXN5Cq+VYz2fYcuLqVO8KPprxWt" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="210.0" Xoffset="20.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 239.3ocUPErZCCCCceJhbdazL1gQusA6dOraiQPMQoQPrjQwkjrQ+2mrSYkwCr068je7vQtcJQ1CzHEHIA6ge.ACjOb3p06aVet6KHQKolckkZ0P.ktoBIKk8Z0Q0bVF0N1C8pGZ0qAx3VTfOVizrwdrUP8KvS9FEJTgwnoKb.Sz3JjT3axzGg2nd0H3HchEgkSYm3HtdOjNaBXXGqfJvLmF.LDG4z4NBDBssDpfK.K8ZompwdN9XtfneWWlDsz2iEi5aBCbGUzRFJSdQBMA8pTmgyM3BM8+E9KysyK.JsCpc6aJq9Lr5uK653teAfE538." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="306.0" Xoffset="20.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 223.3ocUPFzZCCCCEd+TD4RNEvIMTF4VOrC81NL5kxH34nzZnVp3XnsL5+8JqzrxPf8SeumEBe16lRXrBOgAjRPG7KP1.JhOeZ8wr0dy2PBul5MZHGGBVZXRaxnrmiOwQoKW0R0AirLzhMAL5cVB951Y7RzKis.peGZjDZKTrsCLkFSYITAMyhsBqYgsZgIvUKv1xVEtqaQVAqUyB3N3oQVWON5O3IQl2KqbWqJh007G0n9E3ne.UVJZooQNF5C7SzPzdo2dEm9ef+l474cvRtib70uSl1B2j2kck5sGWNTYUB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="400.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[1] 182.3ocUO0yBBCCD0eJGtKXDGjt4fCt4fahThoW0.l6JWCzVj9e2KoEKxCRdekGjFuqMhxF7MFPJBEvGfrATIWliNMEcybGhXerbatjiCAKU0lEIqTlieyhpRvnn.pYcz0GCn3cVBtNzfchWmcMXN.6zFYIbFFAOUy44Xw+zSJMsiUuMYFw4YejCLKFu7UX1KJVpslkPYfmspDaWosGa+uvuMmNGAK4dwxxuI4tGFz2kRUr5KD7ZWIH" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKXEAebyCd2CdSjRLcqFvraYSfpH8e2MaEEYfj4UFHcAeJixL7NFQJCagW.4hnRN7IZ+Xzo4mgL9HWO2J44XzQMISTrJYd9NKppfJEagVVGc5tHJAuifiO6vdInyNEpVCKzFlD1rBFf.0x1drDtFHkVFxo2UFiXa2KVP0OiagFz7xhiRsrDqi7GqFw0W6dfo+K7cywyAvQ9ar766TbWBO02URUL4MTPHWgJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzTbPbyA2cvMQJwzq1.l6JWCzVD+u6kzhE4AIuuxCRm20GQYG9BCHEgivafrATIWVhNOGcq3NDwwXUQtjiCAKU2mEIqTliewhpRvn3Hzv5naOEPw6rDbcpCGDuN6Vvb.J0FYIXJKfOfmZ37fr3e5IklVxp2lLi37vOxAlUiVeMl8hhk5aXITE3EqZwNTYGw9+K7ay4yOfkbsrr9eRt6gI8coTEa9dTXWsL" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 181.3ocUO0zBBCCC0eJAuKXEAkcyCd2CdSjQrKSKXSFYEzgr+6l1IJxCZee0GztfuOQ5B5NEINAUvKfwHYjCeh1OEcZ4YHQOS0KKk7RLhbSeQjsxYd4tnlJCmgJnUrQmuKRZviLbbnidnAa14faKrxZTjvFGLBAtUJ6IZ3ZfMZdHztcEFKkcuTBb+LtEZnhWRQtuUzXcT9X0n3iZ7I0+eguaNcNBH6uI5uuS1cMLXuKmZX1a.7vUfB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHcP5lCt6fahThoW0.l6jqAzhz+6d4rnHOH48UdPtGCCYTVg2vDRYnAdAjOgJY+bztOQGqNAY7YtsxJE3TxScClnXUxB7MVTUANEMPOqitbaBkXvSvgw63CIpytDbaf0ZCSBtpZXBhTOaCxR7RjTZYIud6LFw1vms.2OiqwNz7xhmF5YI0l3YqNw+n0+DG9uv2M+bNAdJbkke+mhaMLpuqjpXwafznW0L" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="400.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKzJNHcyAG5lCtIRIld0Fn4tx0.sh3+cujVrHOH48UdP5c1g.J6vNziT.Jf2.Y7nRtrDcdN5V1cHfSgprTIK68FpdHIhVwLK2whphHWQAzv5naO4QwYMDb8UONJNc1sP9QXu1HIgxR3C3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7BhgFZXwW44EqZwLVYlvg+K7ay4yOfgrsrr9chtGfW56hoJ17kF0dkx" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJJH6lG7tG7lHiZWlVvlLxJnh3+cSyFJxCZee0Gz9XXHixB7FlPJC0vKf7ITI6mh1MFcr5DjwG4lJqTfSIO0NXhhUIKv2XQUE3TTCcrN57sIThAOAGd1i2knN6bvsAVpMLI3VtFdCQpisAYIdIRJsrjWucFiXa3yVf6mw0XKZdYwSCcrjZR7jUq3u23efC+W36limuAOEtxxu+SwcE7TeWIUwrOnzhWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="400.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKXEGD2bvgt4fahThoW0.l6JWBzVD+u6kSQQdPx6q7fzG7oLJKv6XDoLrEd.jKhJ4vmn8uiNs7LjwwbyRqjmiQG0lLQwpj446rnpBpTrE5Xcz46hnD7NBNN0iCRPmcNTsAVoMLITWWCOg.0w1frDtFHkVVxo2UFiXa3KVP0OiagVz7xhiRcrDah7GqVwMz3Fwz+E9t46ymfi72X42+o3tFlz2URUL6Uc3f0D" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="450.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJRQ5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeHfkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkkdWnQTP7lG7tG7lHkX5VaflcKaCzJh+6tIVrHCjLux.o26FhnrF6v.RQ3.7BHa.Ux44nSeitVdCh3TrpLWxwgfkpGxhjUJywcrnpDLJN.MrNZww.JdmkfKO6wQwqyV.l8vFsQVBlcF3M3oFNOHK9GdRookr5sIyHNO78bfYwn0WiYunXogFVBUAd1pVriU1Ib3+B+1764avRtVVV9OI2svS8coTEq9jD6W8L" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJcn3lCt6fahThoWsAZtqbIPUj9e2KohE4AIuuxCxnyFhnrCGPORQ3.7FHiGUx4uQmVhtVbCh3yXSQtjk8dC0FxhjUJyxCrnpDJUb.5XczsG8n3rFBt7ZDmDmN6VnrF1qMxRntBlAG0w48Xw8vQJMMjQuKyLhy6dOGTtZz6ZwrWTLTniEeim+Z0JloFySL7egeatbNCFx1yx52I4VAuz2kRUr4CH.lWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJ6lG7tG7lHiZWlVvlLxJnh3+cSyFJxCZee0Gz9XXHixB7FlPJC0vKf7ITI6mh1MFcr5DjwG4lJqTfSIO0NXhhUIKv2XQUE3TTCcrN57sIThAOAGd1i2knN6bvsAVpMLI3VtFdCQpisAYIdIRJsrjWucFiXa3yVf6mw0XKZdYwSCcrjZR7jUq3u23efC+W36limuAOEtxxu+SwcE7TeWIUwrOrzyWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNX6lCt6fahThoWsAL2UtFnsH8+tWREKxCRdekGjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeXPYWoJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjvwBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeLf1WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkkdWnQTP7lG7tG7lHkX5VaflcKaCzJh+6tIVrHCjLux.o26FhnrF6v.RQ3.7BHa.Ux44nSeitVdCh3TrpLWxwgfkpGxhjUJywcrnpDLJN.MrNZww.JdmkfKO6wQwqyV.l8vFsQVBFyN3M3oFNOHK9GdRookr5sIyHNO78bfYwn0WiYunXogFVBUAd1pVriU1Ib3+B+1764avRtVVV9OI2svS8coTEq9jD5W8L" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TAEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdCDvTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQTu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgp0vBsgIgUafAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCP.eWcJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="650.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJcn3lCt6fahThoWsAZtqbIPUj9e2KohE4AIuuxCxnyFhnrCGPORQ3.7FHiGUx4uQmVhtVbCh3yXSQtjk8dC0FxhjUJyxCrnpDJUb.5XczsG8n3rFBt7ZDmDmN6VnrF1qMxRntBlAG0w48Xw8vQJMMjQuKyLhy6dOGTtZz6ZwrWTLTniEeim+Z0JloFySL7egeatbNCFx1yx52I4VAuz2kRUr4CH.lWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKXEAebyCd2CdSjRLcqFvraYSfpH8e2MaEEYfj4UFHcAeJixL7NFQJCagW.4hnRN7IZ+Xzo4mgL9HWO2J44XzQMISTrJYd9NKppfJEagVVGc5tHJAuifiO6vdInyNEpVCKzFlD1rBFf.0x1drDtFHkVFxo2UFiXa2KVP0OiagFz7xhiRsrDqi7GqFw0W6dfo+K7cywyAvQ9ar766TbWBO02URUL4MTPHWgJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1anThWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGcWvHcP5lCt6fahThoWsAZtqbMPUj9e2KoEE4AIuuxCxf2MFQYK1iAjhPE7FHa.Ux40nSKQW2cCh3yX8tbIGGBVpYLKRVoLG2yhpRvnnBZYczhiAT7NKAWdMfShWms.LGf8ZirDL6KgYvSsbdPV7O7jRSKY0aSlQbd364.yOiNeCl8hhkFaYITG3UqFwNUaehi+W36lKmyfkbcr76+jbKgW56RoJ17APRoe0y" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJET5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIgCEvL3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7Bhg5aXwW44uV0hYnxLh8+W32lKmyfgrsrr9chtEvj9tXphMeDP8WMJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="800.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 184.3ocUO0yBBCCD0eJGcWnUbP5lCN3lChKhThoWsAZtStFvVD+u6kzhE4AIuuxCxSmsOfxZrC8HEfR3MPFOpjSyQGlhtleCB3PnJOUxxdugp6ShnULyxcrnpHJTTBMrNZ1dOJNqgfyiOwWhSmMCJ1AazFIIb7B7AbTCm1iE2CGoz3PF8tHwHNs68TPwhQqqFSdAwP8Mr3q77rUsXdUYFv9+K7ayoyOfgrsrr7chtagQ8cwTEq9Bh79UWC" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHcP5lCt6fahThoW0.l6jqAzhz+6d4rnHOH48UdPtGCCYTVg2vDRYnAdAjOgJY+bztOQGqNAY7YtsxJE3TxScClnXUxB7MVTUANEMPOqitbaBkXvSvgw63CIpytDbaf0ZCSBtpZXBhTOaCxR7RjTZYIud6LFw1vms.2OiqwNz7xhmF5YI0l3YqNw+n0+DG9uv2M+bNAdJbkke+mhaMLpuqjpXwafznW0L" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGcWvHcP5lCt6fahThoWsAZtqbMPUj9e2KoEE4AIuuxCxf2MFQYK1iAjhPE7FHa.Ux40nSKQW2cCh3yX8tbIGGBVpYLKRVoLG2yhpRvnnBZYczhiAT7NKAWdMfShWms.LGf8ZirDL6KgYvSsbdPV7O7jRSKY0aSlQbd364.yOiNeCl8hhkFaYITG3UqFwNUaehi+W36lKmyfkbcr76+jbKgW56RoJ17APRoe0y" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DQEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0qfAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCLPNWUJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzHNnt4f6N3lHkX5UMf4N4Z.aQ5+cubUTjGj79JOHOhgtLJKv6XBoLrEdAjOgJ4vmn8SQmpNCYrOWWYkBbJ4olNSTrJYA9NKpp.mhsPKqiNeWBkXvSvwgG3SIpyNGbqgkZCSBtpMvHDoV1Fjk30HozxRd81YLhsguXAteF2hMn4kEO00xRpNwerZD+yZeO18eguaNcNBdJbike+mh6JXPeWIUwr2rTyWIM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKznNT5lCt6fahTNSupAL2UtFPEw+6dIUTjGj79JOHCA+XhzEzUJRbBZfm.iQxH69DscJ5P0QHQ2SsUkRdIFQtarHxV4LubUTSkgyPCzK1ny2DIM3QF1+XftoAa14fqFVZMJRvspFdAAtWJCJZ3bfMZdIztcEFKkgOUBb+LtD5nhWRQdrWzXaT9X0o3sV7NM9eguaNc9BP1eQze+mr6Z3g8tbpgYu0DEWQM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="850.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="1050.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+</measure>
+<measure WIDTH="1880" WIDTHSETBYHAND="true" TIMESIG="4 4" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="0.0" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="18.0" Xoffset="20.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 257.3ocUPErRDCCD0OkG8jdnxVYOH8VUWwdP1x5pWDoj1N0FnISIIP2hr+6ljcwEYfIy7du4MCYR1ZcjIkFIEocHG+.sPQ9hpyTaNQ84pufiN3pWEE0xJkP2YiMAn.WKOxFeWHx7QN5YuoIEJxHaEZreYhlMRusIH6dbmWQrEIUE61iMX6yXWwSkawqu+V4ivwngvznXg5fXj0D7KPpCquQpENIqwrzMfJgwYwCoubKJ0XMrTafzhqKSK+3lDbzOVOGOW1H+16Qd7NE92rXklimcSjH6BvfrihXNiPa6YipVwmg5Lh4ZwAx9eA+44o7QHzsCr4xuU.cMV7yEX8wU+tcG0QJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="66.0" Xoffset="20.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 236.3ocUP0rZCCCCdOJhbdCZF8vn21gceG1sxHn3n1XVrTPVizvnu6S1orxPfkz2eH7bLjMRehlnDwFb.9AXLQ9v62ndai53tOAitXc6phBRJg7PttTfJbAYRTeqTsdc.NIdnMulHMFPF9XclVznGaCz9B7rqntBMl.8DLqxYESIZ.5WAazQlvURgknMBxVW91fbbh3.4drEhXHSAKJb9wpo8fGmgeUsGnF3JD4SR8VEMdNx9X4HQu2VmXody8Uh16.iwAphYJx4Shl5RxMnAEW5vKT9+B9Kys2q.xgQQu+UUP2CqtuBqWO7KnA94EA" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="114.0" Xoffset="20.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 242.3ocUPFrZCCCCFdOJhbuklwXLxsAq26gcaLBpNJMBhkJJJKsL569rc6VYHvV56+WxBejCSNYqnQJRhCMv2ffQJkr6lz1qRer4SvoSd6lhofFinzMUJxnrVPGUKUki5Tz.8ZZnUuFIiCn.ue9HsXbZrUP8KviIGkRnZg8AV.Db0wQv4HsZjjC9.n8vyPjkYmlVCuManypjwrzwewcy4FlEVN.8FQqgsXX3WhqvdpBtjL2qksUM9P5oZJqIltqKYhV158Eg56fAtiJL2PYpWsXaTug5LboEOQS+2vey754E.kvfZ2+rxzmfyo9xpo3gebMo4kF" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="162.0" Xoffset="20.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 246.3ocUPErZCCCCceJhbeilwNL5sdX22gcqLBJ1JsBhkC1NzDJE5mQ2uW+RlrSYgYA1Ru2SOd3A1DST3YpmbjjfsvYPPGoMe9f5iEp8a9FRzTpYSQjw6bnXikgLTly368AcJW0ZsE57poU6bTfMn.eMOPmBrZaET+N7ppnLBUzzPfhQxBsyfCmX2nCP2POmFszKvNnob.VrpUIJB2udKx8jXn6W+A7sIjkk8CjczvxgUCpfK5lc9Rb8A9.KZaNmn9VW5DeI1sEh5UfirkJXo.JwNev037OfrA7TCNQw+K3OOWtu.nXN5Cq+VYz2fYcuLqVO8KPprxWt" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="210.0" Xoffset="20.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 239.3ocUPErZCCCCceJhbdazL1gQusA6dOraiQPMQoQPrjQwkjrQ+2mrSYkwCr068je7vQtcJQ1CzHEHIA6ge.ACjOb3p06aVet6KHQKolckkZ0P.ktoBIKk8Z0Q0bVF0N1C8pGZ0qAx3VTfOVizrwdrUP8KvS9FEJTgwnoKb.Sz3JjT3axzGg2nd0H3HchEgkSYm3HtdOjNaBXXGqfJvLmF.LDG4z4NBDBssDpfK.K8ZompwdN9XtfneWWlDsz2iEi5aBCbGUzRFJSdQBMA8pTmgyM3BM8+E9KysyK.JsCpc6aJq9Lr5uK653teAfE538." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="306.0" Xoffset="20.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 223.3ocUPFzZCCCCEd+TD4RNEvIMTF4VOrC81NL5kxH34nzZnVp3XnsL5+8JqzrxPf8SeumEBe16lRXrBOgAjRPG7KP1.JhOeZ8wr0dy2PBul5MZHGGBVZXRaxnrmiOwQoKW0R0AirLzhMAL5cVB951Y7RzKis.peGZjDZKTrsCLkFSYITAMyhsBqYgsZgIvUKv1xVEtqaQVAqUyB3N3oQVWON5O3IQl2KqbWqJh007G0n9E3ne.UVJZooQNF5C7SzPzdo2dEm9ef+l474cvRtib70uSl1B2j2kck5sGWNTYUB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[1] 182.3ocUOsrBBCCDzOkkdWvHBp8lG7tG7lHkX5VMPytx1.1hz+c2jVTjARlWYf7z65hnrDaw.RQnDdCjMfJ4zbzwonKlqPD6iUqxkbbHXo5trHYkxbbKKpJAihRng0QKNDPw6rDbd3I9R75rEfYGrVajkv18vH3oFNuGK96dRoogr5sIyHNu6sbf4mwCeMl8hhk5ZXITE3YqZw9px1ic+W36lSmifkbOX422I4tAFz2kRUr3CXvGWkJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 181.3ocUO0zBBCCC0eJAuKXEAkcyCd2CdSjQrKSKXSFYEzgr+6l1IJxCZee0GztfuOQ5B5NEINAUvKfwHYjCeh1OEcZ4YHQOS0KKk7RLhbSeQjsxYd4tnlJCmgJnUrQmuKRZviLbbnidnAa14faKrxZTjvFGLBAtUJ6IZ3ZfMZdHztcEFKkcuTBb+LtEZnhWRQtuUzXcT9X0n3iZ7I0+eguaNcNBH6uI5uuS1cMLXuKmZX1a.7vUfB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3TQDu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIg0KgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2UvS8ckTESdC..rWEJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJBJdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1anThWAM" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="400.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKzJNHcyAG5lCtIRIld0Fn4tx0.sh3+cujVrHOH48UdP5c1g.J6vNziT.Jf2.Y7nRtrDcdN5V1cHfSgprTIK68FpdHIhVwLK2whphHWQAzv5naO4QwYMDb8UONJNc1sP9QXu1HIgxR3C3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7BhgFZXwW44EqZwLVYlvg+K7ay4yOfgrsrr9chtGfW56hoJ17kF0dkx" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJRQ5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeHfkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJEQ5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIgCEvL3nFNsGKtmNRowgL5cdhQbZ2Gof7UiVWMl7Bhg5aXwW44uV0hYnxLh8+W32lKmyfgrsrr9chtEvj9tXphMeDfTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="450.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 181.3ocUO0zBBCCC0eJAuKXEAkcyCd2CdSjQrKSKXSFYEzgr+6l1IJxCZee0GztfuOQ5B5NEINAUvKfwHYjCeh1OEcZ4YHQOS0KKk7RLhbSeQjsxYd4tnlJCmgJnUrQmuKRZviLbbnidnAa14faKrxZTjvFGLBAtUJ6IZ3ZfMZdHztcEFKkcuTBb+LtEZnhWRQtuUzXcT9X0n3iZ7I0+eguaNcNBH6uI5uuS1cMLXuKmZX1a.7vUfB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGcWno3f3lCt6fahThoWsAZtqbMPUj9e2KohE4AIuuxCxf2MFQYK1iAjhvA3MP1.pjyeiNsDcs7FDwmw5xbIGGBVpYLKRVoLG2yhpRvn3.zx5nEGCn3cVBt7Z.mDuNaAX1CUZirDLUUvL3oVNOHK9GdRookr5sIyHNO78bfY0ny2fYunXowVVB0A9qUiXmpsOww+K7aykyYvRtNVV+OI2cvK8coTEa9fToW0L" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="600.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 183.3ocUO0yBBCCD0eJGtKXEGD2bvgt4fahThoW0.l6JWBzVD+u6kSQQdPx6q7fzG7oLJKv6XDoLrEd.jKhJ4vmn8uiNs7LjwwbyRqjmiQG0lLQwpj446rnpBpTrE5Xcz46hnD7NBNN0iCRPmcNTsAVoMLITWWCOg.0w1frDtFHkVVxo2UFiXa3KVP0OiagVz7xhiRcrDah7GqVwMz3Fwz+E9t46ymfi72X42+o3tFlz2URUL6Uc3f0D" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="600.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 184.3ocUO0yBBCCD0eJGcWnUbP5lCN3lChKhThoWsAZtStFvVD+u6kzhE4AIuuxCxSmsOfxZrC8HEfR3MPFOpjSyQGlhtleCB3PnJOUxxdugp6ShnULyxcrnpHJTTBMrNZ1dOJNqgfyiOwWhSmMCJ1AazFIIb7B7AbTCm1iE2CGoz3PF8tHwHNs68TPwhQqqFSdAwP8Mr3q77rUsXdUYFv9+K7ayoyOfgrsrr7chtagQ8cwTEq9Bh79UWC" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="910.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="962.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0yBBCCD0eJGtKzJNX6lCt6fahThoWsAL2UtFnsH8+tWREKxCRdekGjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeXPYWoJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1014.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1066.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="1118.0" Xoffset="650.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 181.3ocUO0zBBCCC0eJAuKXEAkcyCd2CdSjQrKSKXSFYEzgr+6l1IJxCZee0GztfuOQ5B5NEINAUvKfwHYjCeh1OEcZ4YHQOS0KKk7RLhbSeQjsxYd4tnlJCmgJnUrQmuKRZviLbbnidnAa14faKrxZTjvFGLBAtUJ6IZ3ZfMZdHztcEFKkcuTBb+LtEZnhWRQtuUzXcT9X0n3iZ7I0+eguaNcNBH6uI5uuS1cMLXuKmZX1a.7vUfB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="390.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="442.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJVP5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sP9QXu1HIghBXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeDPTWIJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="494.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="546.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUOsrBBCCDzOkEuKzJhT5MO3cO3MQJwzs1.lcKaCzVj9u6lTwhLPx7JCjNmsOfxN7E5QJ.kvafLdTIW9FcdI5V1cHfigprTIK68FptOIhVwLK+hEUEQthRng0Q2dxihyZH35TGNHNc1sPdArWajjPwQXFbTCm1iE2SGoz3PF8NOwHNs6iTP9pQqqFSdAwP8Mr3q77WqZwLTYFw9+K7aykyYvP1VVV+NQ2Cvj9tXphMeL.2WYJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="598.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 181.3ocUO0yBBCCD0eJGtKXDGzt4f6N3lHkyzqZ.yckqAzhz+6dIUTjGj79JOHcAeehzEzcJRbBpfW.iQxHG9DseJ5zxyPhdlpWVJ4kXD4l9hHaky7xcQMUFNCUPqXiNeWjzfGY33PG8PC1ryA2FXk0nHgsNXDBbqT1Szv0.az7Pnc6JLVJ6doD39YbKzPEujhbeqnw5n7wpQwG03Sp++Be2b5bDP1eSzeemr6ZXvdWN0vr2AT0UhB" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="650.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="702.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuK3DEEu4Au6AuIxn1koErIizBSQ1+cSyDE4Asuu5CZWvmxnLCuiQjxvV3EPtHpjCeh1OFcZ9YHiOx0ysRdNFcTSxDEqRlmuyhpJnRwVnk0QmtKhRv6H33yNrWB5rSgpMvBsgIgUqgAHPsrsGKgqARokgb5ckwH118hET8y3VnAMur3nTKKw5H+wpQb80tGX5+Be2b7b.bj+FK+9NE2kvS8ckTESdCHPkWQJ" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="754.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 183.3ocUOsrBBCCDzOkEuKX7AHdyCd2CdSjRLcqFvrqrMfsH8e2MaEEYfj4UFHOhg1LJyv6XBoLrEdAjOgJ4vmn8iQmleFxXWtZtUJvojmpaMQwpjE36rnpBbJ1BMrN5zcIThAOAG6efOknN6TvsAVnMLI3VtFFfH0v1frDuFIkVVxq2NiQrM7EKv8y3VrFMur3o1FVRUI9iUs3eV46v1+K7cywyAvSgar76+TbWA856JoJl7FvRtbUz" >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="806.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 190.3ocUOsjBBCCD0ixf6ELhKjtyEt2EtSjRLcpMPyLxj.UQJ3gvSnmDmDEE4ERl2m7B4r2ESnLC6w.RInBtAjMf5v1OVadase9AHgWR0yKgbbHXolXgjkxdNtmEkkgQQEzxZoSWGPw6rDr65YbP7ZsSAyJXglnPgm2e7cAifmZ4Ryr3O4IcLWoUOMkIhKuvwhg4mPmuAKZIwRwVVB0A9iTiXGpsWv3+A91468QvRtNV98wxpKgq58xtJl7BVR9WP." >
+</measureUserBean>
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="858.0" Xoffset="850.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[0] 182.3ocUO0zBBCCC0eJAuKrJJHdyCd2CdSjQsKSKXSjrBtgr+6llIJxCZee0GzGwPWFkE3cLgTF1Bu.xmPkb3Sz9onSUmgL1mqqrRANk7TSmIJVkr.emEUUfSwVnk0QmuKgRL3I33vC7oD0YmCtMvRsgIAW0ZXDhTKaCxR7ZjTZYIud6LFw1vWr.2OiawFz7xhm5ZYIUm3OVMh+YsuG69uv2MmNGAOEtwxu+SwcELnuqjpX1ajTQW4L" >
+</measureUserBean>
+</measure>
+<scoreUserBean CLASSNAME="com.algomusic.max.MaxScoreRenderedMessageListener" >
+</scoreUserBean>
+</score>
+</jmslscoredoc>
