@@ -274,10 +274,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 221.0, 779.0, 39.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -292,10 +288,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 221.0, 700.0, 33.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in~ 1"
 				}
 
@@ -1097,8 +1089,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.0, 238.0, 69.0, 19.0 ],
-					"text" : "BellCurve 20"
+					"patching_rect" : [ 218.0, 238.0, 107.0, 19.0 ],
+					"text" : "RadioMusicBellCurve 20"
 				}
 
 			}
@@ -1728,9 +1720,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "BellCurve.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/DJster/patchers/Tonality",
-				"patcherrelativepath" : "../../../../../DJster/patchers/Tonality",
+				"name" : "RadioMusicBellCurve.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/RadioMusic/Resources",
+				"patcherrelativepath" : "../Resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}

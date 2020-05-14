@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 174.0, 213.0, 1161.0, 710.0 ],
+		"rect" : [ 190.0, 251.0, 1231.0, 710.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -40,12 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 633.0, 463.0, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 653.75, 420.361755000000016, 40.0, 22.0 ],
+					"text" : "t i i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 632.75, 506.0, 257.0, 22.0 ],
+					"text" : "sprintf /target/%i/maxscore/message render %i"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-89",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 789.25, 598.0, 175.0, 20.0 ],
+					"patching_rect" : [ 881.25, 584.0, 175.0, 20.0 ],
 					"text" : "/target/1/maxscore/message render 2"
 				}
 
@@ -58,7 +100,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 924.25, 642.0, 163.0, 22.0 ],
+					"patching_rect" : [ 866.25, 622.0, 163.0, 22.0 ],
 					"text" : "prepend /maxscore/message"
 				}
 
@@ -70,7 +112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 838.333333333333485, 520.0, 60.0, 20.0 ],
+					"patching_rect" : [ 926.333333333333485, 506.0, 60.0, 20.0 ],
 					"text" : "dumpScore"
 				}
 
@@ -83,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 838.333333333333485, 549.0, 239.0, 22.0 ],
+					"patching_rect" : [ 926.333333333333485, 535.0, 239.0, 22.0 ],
 					"text" : "pattrforward parent::score::send2MaxScore"
 				}
 
@@ -321,7 +363,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 656.75, 439.0, 20.0, 20.0 ]
+					"patching_rect" : [ 626.75, 364.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -334,7 +376,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 656.75, 463.0, 46.0, 22.0 ],
+					"patching_rect" : [ 626.75, 388.5, 46.0, 22.0 ],
 					"text" : "uzi 5 0"
 				}
 
@@ -348,22 +390,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 683.75, 495.0, 287.0, 22.0 ],
+					"patching_rect" : [ 713.75, 463.0, 287.0, 22.0 ],
 					"text" : "sprintf /client Preferences::Spatialization::sprd%i 50."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-38",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 756.25, 336.138244999999984, 63.0, 20.0 ],
-					"text" : "RadioMusic"
 				}
 
 			}
@@ -463,7 +491,7 @@
 					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-66",
-					"items" : [ "CAG0.aif", ",", "CAG1.aif", ",", "CAG2.aif", ",", "CAG3.aif", ",", "CAG4.aif", ",", "CAG5.aif", ",", "CAG6.aif", ",", "CAG7.aif", ",", "CAG8.aif", ",", "CAG9.aif", ",", "CAGA.aif", ",", "CAGB.aif", ",", "CAGC.aif", ",", "CAGE.aif", ",", "CAGF.aif" ],
+					"items" : [ "CAG0.aif", ",", "CAG1.aif", ",", "CAG2.aif", ",", "CAG3.aif", ",", "CAG4.aif", ",", "CAG5.aif", ",", "CAG6.aif", ",", "CAG7.aif", ",", "CAG8.aif", ",", "CAG9.aif", ",", "CAGA.aif", ",", "CAGB.aif", ",", "CAGC.aif", ",", "CAGD.aif", ",", "CAGE.aif", ",", "CAGF.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -514,10 +542,10 @@
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 729.25, 304.269714000000022, 46.0, 20.0 ],
-					"text" : "t b b b"
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "bang", "bang" ],
+					"patching_rect" : [ 729.25, 304.269714000000022, 50.5, 20.0 ],
+					"text" : "t b b b b"
 				}
 
 			}
@@ -552,8 +580,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 729.25, 428.000000000000057, 329.0, 64.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 742.75, 388.5, 329.0, 64.0 ],
 					"text" : "/client Preferences::Plugins::audioextension1 RadioMusic~.ext.maxpat, /client Preferences::Plugins::audioextension2 RadioMusic~.ext.maxpat, /client Preferences::Plugins::audioextension3 RadioMusic~.ext.maxpat, /client Preferences::Plugins::audioextension4 RadioMusic~.ext.maxpat, /client Preferences::Plugins::audioextension5 RadioMusic~.ext.maxpat"
 				}
 
@@ -567,7 +594,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 742.75, 404.0, 228.0, 20.0 ],
+					"patching_rect" : [ 756.25, 349.138244999999984, 228.0, 20.0 ],
 					"text" : "/client Preferences::Inputs::RadioMusic::enable 1"
 				}
 
@@ -881,7 +908,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 102.0, 404.0, 51.0, 19.0 ],
+					"patching_rect" : [ 102.0, 405.0, 51.0, 19.0 ],
 					"text" : "zl slice 1"
 				}
 
@@ -892,11 +919,11 @@
 					"fontsize" : 9.0,
 					"id" : "obj-24",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 382.0, 44.0, 19.0 ],
-					"text" : "strtok ."
+					"patching_rect" : [ 102.0, 382.0, 110.0, 19.0 ],
+					"text" : "fromsymbol @separator ."
 				}
 
 			}
@@ -1087,22 +1114,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 169.0, 33.0, 19.0 ],
+					"patching_rect" : [ 71.5, 158.0, 33.0, 19.0 ],
 					"text" : "clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-57",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 756.25, 370.138244999999984, 231.0, 22.0 ],
-					"text" : "prepend /client Preferences::Project::path"
 				}
 
 			}
@@ -1164,6 +1177,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-12", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1315,6 +1335,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -1397,13 +1424,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-37", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -1521,14 +1541,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-57", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-58", 2 ]
 				}
 
@@ -1536,30 +1549,28 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"order" : 0,
-					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"source" : [ "obj-59", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-59", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-59", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
-					"order" : 1,
 					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-59", 3 ]
 				}
 
 			}
@@ -1616,6 +1627,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-7", 2 ]
 				}
 
 			}
@@ -1789,31 +1821,12 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "my-radio-channels.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/RadioMusic/Resources",
-				"patcherrelativepath" : "../Resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxfolder.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
-				"patcherrelativepath" : "../../../../../MaxScore/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "strtok.mxo",
-				"type" : "iLaX"
-			}
- ],
 		"styles" : [ 			{
 				"name" : "black on white",
 				"number" : 				{
-					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"umenu" : 				{
@@ -1846,9 +1859,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 3 ],
-					"fontsize" : [ 15.0 ]
+					"fontsize" : [ 15.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1857,8 +1870,8 @@
 , 			{
 				"name" : "section info reg",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1867,9 +1880,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 20.0 ]
+					"fontsize" : [ 20.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
