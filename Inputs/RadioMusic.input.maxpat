@@ -516,16 +516,74 @@
 						}
 ,
 						"classnamespace" : "box",
-						"openrect" : [ 603.0, 823.0, 254.92578125, 140.0 ],
+						"openrect" : [ 603.0, 823.0, 294.336905300151557, 140.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"enablehscroll" : 0,
 						"enablevscroll" : 0,
-						"devicewidth" : 254.92578125,
+						"devicewidth" : 294.336905300151557,
 						"title" : "RadioMusic",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 12.0,
+									"id" : "obj-20",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 160.215060830116272, 63.0, 83.870971441268921, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 107.494627118110657, 3.225806593894958, 83.870971441268921, 20.0 ],
+									"text" : " Frequency"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 343.010767817497253, 159.139791965484619, 59.0, 20.0 ],
+									"text" : "set $1 MHz"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 12.0,
+									"id" : "obj-13",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 343.010767817497253, 193.54839563369751, 63.440863013267517, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 233.333343625068665, 26.456990480422974, 58.064518690109253, 20.0 ],
+									"text" : "119 MHz"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"contdata" : 1,
+									"id" : "obj-9",
+									"maxclass" : "multislider",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"orientation" : 0,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 241.00000533333332, 64.5, 270.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.752688646316528, 27.956990480422974, 216.0, 17.0 ],
+									"setminmax" : [ 55.0, 156.0 ],
+									"settype" : 0
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -1034,7 +1092,6 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 25.0, 25.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"frequency" : [ 119.0 ],
 										"on" : [ 1.0 ]
 									}
 ,
@@ -1053,7 +1110,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 421.0, 117.0, 38.0, 19.0 ],
+									"patching_rect" : [ 532.258087992668152, 104.209679126739502, 38.0, 19.0 ],
 									"text" : "* 127"
 								}
 
@@ -1072,9 +1129,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 421.0, 78.0, 44.0, 15.0 ],
+									"patching_rect" : [ 532.258087992668152, 65.5, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 59.0, 48.5, 58.0, 36.0 ],
+									"presentation_rect" : [ 120.430112838745117, 77.419358253479004, 58.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -1128,58 +1185,6 @@
 							}
 , 							{
 								"box" : 								{
-									"activefgdialcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
-									"activeneedlecolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
-									"appearance" : 3,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-11",
-									"maxclass" : "live.dial",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 241.0, 47.0, 63.0, 67.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 142.0, 29.0, 63.0, 67.0 ],
-									"saved_attribute_attributes" : 									{
-										"activefgdialcolor" : 										{
-											"expression" : ""
-										}
-,
-										"activeneedlecolor" : 										{
-											"expression" : ""
-										}
-,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"tricolor" : 										{
-											"expression" : ""
-										}
-,
-										"valueof" : 										{
-											"parameter_longname" : "Frequency",
-											"parameter_mmax" : 156.0,
-											"parameter_mmin" : 55.0,
-											"parameter_modmode" : 0,
-											"parameter_shortname" : "Frequency",
-											"parameter_type" : 1,
-											"parameter_units" : "MHz",
-											"parameter_unitstyle" : 9
-										}
-
-									}
-,
-									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
-									"tricolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
-									"varname" : "frequency"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "",
 									"hidden" : 1,
 									"id" : "obj-12",
@@ -1201,7 +1206,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 421.0, 137.0, 80.0, 19.0 ],
+									"patching_rect" : [ 532.258087992668152, 124.639787554740906, 80.0, 19.0 ],
 									"text" : "prepend volume"
 								}
 
@@ -1238,13 +1243,6 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-19", 0 ],
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-14", 0 ]
@@ -1256,6 +1254,13 @@
 									"destination" : [ "obj-12", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -1276,17 +1281,17 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"midpoints" : [ 311.5, 44.0, 250.5, 44.0 ],
-									"source" : [ "obj-21", 0 ]
+									"destination" : [ "obj-4", 0 ],
+									"midpoints" : [ 357.5, 37.0, 541.758087992668152, 37.0 ],
+									"source" : [ "obj-21", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"midpoints" : [ 357.5, 37.0, 430.5, 37.0 ],
-									"source" : [ "obj-21", 1 ]
+									"destination" : [ "obj-9", 0 ],
+									"midpoints" : [ 311.5, 44.0, 250.50000533333332, 44.0 ],
+									"source" : [ "obj-21", 0 ]
 								}
 
 							}
@@ -1300,7 +1305,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
+									"destination" : [ "obj-4", 0 ],
+									"hidden" : 1,
+									"midpoints" : [ 173.166672000000005, 37.0, 541.758087992668152, 37.0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-6", 2 ]
 								}
@@ -1308,10 +1322,17 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"hidden" : 1,
-									"midpoints" : [ 173.166672000000005, 37.0, 430.5, 37.0 ],
-									"source" : [ "obj-6", 0 ]
+									"destination" : [ "obj-18", 0 ],
+									"order" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"order" : 1,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
